@@ -2,16 +2,16 @@
 
 ## 中文EDA实现以及回译实现。
     1、本工具的EDA部分是论文[《EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks》](https://arxiv.org/abs/1901.11196)的中文版本实现。  
-    2、本文的EDA部分是在[eda_nlp](https://github.com/zhanlaoban/EDA_NLP_for_Chinese)的基础上优化改进的，感谢。
-    3、EDA英文，请参考[eda_nlp](https://github.com/jasonwei20/eda_nlp)。
+    2、本文的EDA部分是在https://github.com/zhanlaoban/EDA_NLP_for_Chinese的基础上优化改进的，感谢。
+    3、EDA英文，请参考https://github.com/jasonwei20/eda_nlp
     4、回译部分是采用googletrans包，将其重新封装了一下，做了一个ip连接池。
     5、回译时，随机获取一种外语，翻译到该外语，再翻译回汉语。
 
 
 # EDA Reference
 
-- 原仓库：[eda_nlp](https://github.com/zhanlaoban/EDA_NLP_for_Chinese)。感谢原作者的付出。
-- 原仓库：[eda_nlp](https://github.com/jasonwei20/eda_nlp)。感谢原作者的付出。Thanks to the author of the paper.
+- EDA中文版原仓库：[EDA_NLP_for_Chinese](https://github.com/zhanlaoban/EDA_NLP_for_Chinese)。感谢原作者的付出。
+- EDA英文版原仓库：[eda_nlp](https://github.com/jasonwei20/eda_nlp)。感谢原作者的付出。Thanks to the author of the paper.
 - [《EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks》](https://arxiv.org/abs/1901.11196)
 
 # Acknowledgments
