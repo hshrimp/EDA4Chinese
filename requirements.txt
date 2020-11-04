@@ -1,3 +1,2 @@
 jieba~=0.42.1
-googletrans~=3.0.0
 synonyms~=3.15.0

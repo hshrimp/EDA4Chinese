@@ -1,12 +1,10 @@
-# EDA_BackTranslate_For_Chinese
+# EDA4Chinese
 
-## 中文EDA实现以及回译实现。
+## 中文EDA实现。
     1、本工具的EDA部分是论文[《EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks》](https://arxiv.org/abs/1901.11196)的中文版本实现。  
-    2、本文的EDA部分是在https://github.com/zhanlaoban/EDA_NLP_for_Chinese的基础上优化改进的，感谢。
+    2、本文的EDA部分是在https://github.com/zhanlaoban/EDA_NLP_for_Chinese的基础上优化改进，降低了复杂度，感谢作者。
     3、EDA英文，请参考https://github.com/jasonwei20/eda_nlp
-    4、回译部分是采用googletrans包，将其重新封装了一下，做了一个ip连接池。
-    5、回译时，随机获取一种外语，翻译到该外语，再翻译回汉语。
-
+    
 
 ## EDA Reference
 
@@ -45,13 +43,4 @@
     输入：'中华白海豚浪漫求偶画面'
     输出：
         EDA: {'中华白海豚浪漫求偶镜头', '中华白海豚浪漫画面', '中华白海豚浪漫求偶', '中华白海豚浪漫雄蛙画面', '中华白海豚浪漫求偶底片镜头', '求偶鲇鱼浪漫中华画面', '中华浪漫求偶画面', '中华鲇鱼浪漫求偶画面', '求偶白海豚浪漫中华镜头', '画面白海豚浪漫雄蛙中华', '雌兽中华白海豚浪漫雄蛙画面', '中华鲇鱼浪漫求偶万国画面'}
-        0  back_translate: 中国白海豚求爱浪漫场景
-        1  back_translate: 中国白海豚浪漫宫廷现场
-        2  back_translate: 中国白海豚浪漫庭院场景
-        3  back_translate: 中国白海豚浪漫求爱场景
-        4  back_translate: 中国白海豚，浪漫求爱场景
-        5  back_translate: 中国白海豚的浪漫爱情场景
-        6  back_translate: 中国白海豚浪漫求爱场景
-        7  back_translate: 中国白海豚浪漫之地
-        8  back_translate: 中国白海豚的浪漫会合场景
-        9  back_translate: 中国白海豚浪漫求爱场景
+        
